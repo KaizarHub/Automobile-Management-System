@@ -1,0 +1,42 @@
+KD AUTOMOBILE MANAGEMENT SYSTEM (KDAMS)
+============================================
+
+Project type: Web-based Automobile Inventory & Sales Management System
+Technology: PHP 8+, MySQL/MariaDB, Bootstrap 3.4, Font Awesome 6, JavaScript/jQuery
+Database: kd_automobile_management
+
+DEMO ACCOUNTS
+-------------
+Administrator : Admin / Admin@123
+Inventory     : Inventory / Admin@123
+Sales         : Sales / Admin@123
+
+IMPORTANT: Change demo passwords after deployment.
+
+SETUP (XAMPP / WAMP)
+--------------------
+1. Copy the project folder into htdocs (XAMPP) or www (WAMP).
+2. Start Apache and MySQL/MariaDB.
+3. Open phpMyAdmin and import DATABASE FILE/kdams_database.sql.
+   The script creates the kd_automobile_management database automatically.
+4. Check includes/config.php for database host, username and password.
+5. Open: http://localhost/Automobile-Management-System/
+6. Sign in with one of the demo accounts above.
+
+DEPLOYMENT NOTES
+----------------
+- PHP 8.1+ recommended.
+- MySQL 8+ or MariaDB 10.4+ recommended.
+- Keep uploads/users and uploads/products writable by the web server.
+- Do not expose phpMyAdmin on a public production server.
+- Replace demo credentials before real use.
+
+MODULES
+-------
+Dashboard, Categories, Inventory Items, Media, Sales, Sales Reports,
+Users, User Groups, Profile/Settings, Authentication and role-based access.
+
+KDAMS is a customized academic project based on an existing PHP inventory
+application. The UI, branding, database seed data, authentication handling,
+responsive layout and documentation have been upgraded for KD Automobile
+Management System.
